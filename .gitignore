@@ -1,0 +1,59 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.fls
+*.out
+*.synctex.gz
+*.fdb_latexmk
+
+# BibTeX temporary files
+*.bbl
+*.blg
+
+# PDF output (uncomment if you don't want to track the compiled PDF)
+# *.pdf
+
+# LaTeX beamer
+*.nav
+*.snm
+*.vrb
+
+# LaTeX glossary
+*.glg
+*.glo
+*.gls
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+
+# LaTeX package manager files
+*.dpth
+*.md5
+*.auxlock
+
+# Editor temporary/backup files
+*~
+.*.swp
+.*.swo
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directory
+build/
+
+# Ignore all files in the root directory except src/
+/*
+!/src/
+
+# But don't ignore .gitignore and README (if you have one)
+!.gitignore
+!README.md
